@@ -36,7 +36,36 @@
   <p>Please let us know by the end of April 2021 if you plan to join us.  </p>
 
 <div class="container">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekUgITCuxkp_n_ujU50t7V_wTpVhHZ4V-4HQ_tG5EvCvV-5g/viewform?embedded=true" width="640" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="contact">
+    <form action="action_page.php">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Full name">
+
+      <label for="guests">Please provide the names of all guests you are responding on behalf of:</label>
+      <textarea id="guests" name="guests" placeholder="Full name(s)" style="height:100px"></textarea>
+
+      <label for="ceremony_response">Will you be joining us for the Saturday ceremony & dinner? </label>
+      <select id="ceremony_response" name="ceremony_response">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="bbq_response">Will you be joining us for the Sunday lunchtime BBQ? </label>
+      <select id="bbq_response" name="bbq_response">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="dietary">Dietary requirements</label>
+      <textarea id="dietary" name="dietary" placeholder="e.g. allergies, vegetarian, vegan" style="height:50px"></textarea>
+
+      <label for="notes">Notes</label>
+      <textarea id="notes" name="notes" placeholder="Anything else you'd like us to know?" style="height:100px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
   </div>
   </div>
 
