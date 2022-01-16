@@ -40,17 +40,17 @@ tel {
 
 
 .fa-plane {
-  color: #dcdcdc;
+  color: #741b47;
   opacity: 0.7;
 }
 
 .fa-anchor {
-  color: #dcdcdc;
+  color: #741b47;
   opacity: 0.7;
 }
 
 .fa-subway {
-  color: #dcdcdc;
+  color: #741b47;
   opacity: 0.7;
 }
 
@@ -91,7 +91,7 @@ tel {
 
 
   a:link {
-    color: #CC5500;
+    color: #741b47;
   }
 
 /* visited link */
