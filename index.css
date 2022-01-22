@@ -44,10 +44,6 @@ footer {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-tel {
-  color: #CC5500;
-}
-
 
 .fa-plane {
   color: #741b47;
@@ -99,23 +95,21 @@ tel {
   opacity: 0.7;
 }
 
-
   a:link {
     color: #741b47;
-    font-weight: bold;
   }
 
 /* visited link */
-:visited {
+  a:visited {
   color: #741b47;
-}
+  }
 
 /* mouse over link */
-a:hover {
+  a:hover {
   color: #912058;
-  text-decoration: underline;
-}
-
+  font-weight: bold;
+  font-style: normal;
+  }
 
 
 .landing-page-text {
