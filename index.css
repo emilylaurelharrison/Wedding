@@ -26,12 +26,22 @@ body {
     font-size: 18px;
     font-family: 'Alegreya Sans', sans-serif;
     color: #505050;
-    font-weight: bold;
 }
 
 nav {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #E1D8E1;
+  text-align: center;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 tel {
@@ -92,26 +102,54 @@ tel {
 
   a:link {
     color: #741b47;
+    font-weight: bold;
   }
 
 /* visited link */
 :visited {
-  color: #CC5500;
+  color: #741b47;
 }
 
 /* mouse over link */
 a:hover {
-  color: #A9A9A9;
-  text-decoration: none;
+  color: #912058;
+  text-decoration: underline;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  text-align: center;
-  font-family: 'Alegreya Sans', sans-serif;
+
+
+.landing-page-text {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
 }
+
+.landing-image {
+   margin-top:10%;
+   margin-bottom:0%;
+   background-image: url('Images/Paris_BW.jpg');
+   height: 90%;
+   width: 90%;
+   position: absolute;
+   background-position: 0 0;
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+
+.landing-image-sepia {
+   margin-top:10%;
+   margin-bottom:0%;
+   background-image: url('Images/Paris_Sepia.jpg');
+   height: 90%;
+   width: 90%;
+   position: absolute;
+   background-position: 0 0;
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+
+.navbar {
+  background-color:#E1D8E1;
+}
+
+EFEAEA light pink
